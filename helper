@@ -1,0 +1,29 @@
+jestWyborem([ [v0, a, v1, v3],
+[v1, e, v2, v3],
+[v2, a],
+[v3, a] ],[ [v0, a, v1, v3],
+[v1, e, v2],
+[v2, a],
+[v3, a] ]).
+
+
+AE = [ [v0, a, v1, v3],
+[v1, e, v2, v3],
+[v2, a],
+[v3, a],
+[v4, a] ]
+,
+G = [ [v0, a, v1, v3],
+[v1, e, v2],
+[v2, a],
+[v3, a],
+[v4, a] ],
+jestWyborem(AE,G).
+
+
+AE = [ [v0, a, v1, v3],
+[v1, e, v2, v3],
+[v2, a],
+[v3, a] ]
+,
+jestDFS(AE, D).

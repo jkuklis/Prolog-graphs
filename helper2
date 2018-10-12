@@ -1,0 +1,9 @@
+jestADFS([ [v0, a, v1, v3], [v1, e, v2, v3], [v2, a], [v3, a] ], L).
+
+jestADFS1([ [v0, a, v1, v3], [v1, e, v2, v3], [v2, a], [v3, a] ], L).
+
+subset(Set1, Set2) :-
+	(   foreach(X,Set1),
+	    param(Set2)
+	do  memberchk(X,Set2)
+	).
